@@ -101,7 +101,7 @@ p {
 
 p.introduct {
     padding: 6%;
-    padding-top: 120px;
+    padding-top: 90px;
 }
 
 img.ME {
@@ -197,6 +197,12 @@ footer {
     }
     h6 {
         font-size: 100%;
+    }
+    p .introduct {
+        padding-top: .100px;
+    }
+    .social {
+        font-size: 200%;
     }
 }
 
