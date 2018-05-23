@@ -37,7 +37,7 @@ The landing page includes the navigation and the animated home page which shows 
 
 The introduction section gives a brief introduction of myself with a bitmoji next to the text.
 
-### Skilla
+### Skills
 
 The skills section shows what web development skills I have and also the proficiency in them.
 
