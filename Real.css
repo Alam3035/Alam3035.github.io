@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:600,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:500');
+html,
+body {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 1px #666;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+}
+
+.navbar {
+    background: transparent;
+}
+
+.navbar-link {
+    font-size: 1.1em !important;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.navbar .navbar-nav li a {
+    color: #fff;
+}
+
+.navbar .navbar-nav li a:hover {
+    background-color: #5398c6;
+}
+
+.navbar .navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar .navbar-toggler:hover,
+.navbar .navbar-toggler:focus {
+    background-color: #5398c6;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(img/forrest.png) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.content h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #f9f3f4;
+    font-size: 250%;
+    text-shadow: 3px 3px #098fa8;
+}
+
+img.banner {
+    width: 100%;
+}
+
+h1.Content {
+    font-size: 300%;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #666;
+}
+
+h3 {
+    font-size: 210%;
+}
+
+h5 {
+    font-size: 150%
+}
+
+h6 {
+    font-size: 150%;
+}
+
+p {
+    font-size: 120%;
+}
+
+#Introduction {
+    padding: 40px 0;
+    background-color: #1fb8eb;
+}
+
+p.introduct {
+    padding: 6%;
+    padding-top: 120px;
+}
+
+img.ME {
+    padding-bottom: 5%;
+    margin: 0 auto;
+}
+
+#Skills {
+    padding: 60px 0 60px;
+    background-color: #ff9800;
+}
+
+.Skills-title {
+    padding: 0 0 30px;
+}
+
+.Skills-content {
+    padding: 0 0 50px;
+}
+
+.fa-html5 {
+    font-size: 85px;
+    color: black;
+}
+
+.fa-css3-alt {
+    font-size: 85px;
+    color: black;
+}
+
+.fa-js-square {
+    font-size: 85px;
+    color: yellow;
+}
+
+.fa-bold {
+    font-size: 85px;
+    color: #673ab7;
+}
+
+#Portfolio {
+    padding: 90px 0 50px;
+    background-color: #00b2ca;
+}
+
+.Portfolio-title {
+    padding: 0px 10px 40px;
+    margin: 0 auto;
+}
+
+#Connect {
+    padding: 0 0 15px;
+    background-color: #673ab7;
+}
+
+.social {
+    font-size: 500%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.social a {
+    color: #fff;
+    padding: 3rem;
+}
+
+.row {
+    margin: 0;
+}
+
+footer {
+    background-color: #673ab7;
+    margin: auto;
+}
+
+@media(max-width: 768px) {
+    .content h1 {
+        font-size: 300%;
+    }
+    p {
+        font-size: 120%;
+        line-height: 160%;
+    }
+    h1 {
+        font-size: 170%;
+    }
+    h3 {
+        font-size: 120%;
+        max-width: 100%;
+    }
+    h5 {
+        font-size: 100%;
+    }
+    h6 {
+        font-size: 100%;
+    }
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+
+Small (sm) devices (landscape phones, 576px and up)
+
+Medium (md) devices (tablets, 768px and up)
+
+Large (lg) devices (desktops, 992px and up)
+
+Extra (xl) large devices (large desktops, 1200px and up)
+
+*/
